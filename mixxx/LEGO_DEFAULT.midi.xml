@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="1.6.2+">
+    <info>
+        <name>Lego_default</name>
+        <author>julle</author>
+        <description>YOYOYO1</description>
+    </info>
+    <controller id="MIOS32">
+        <scriptfiles>
+            <file filename="LEGO_DEFAULT-scripts.js" functionprefix="LEGO"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group>[Master]</group>
+                <key>maximize_library</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0xBE</status>
+                <midino>0x06</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>MIDI Learned from 8 messages.</description>
+                <status>0xBE</status>
+                <midino>0x07</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0xBE</status>
+                <midino>0x08</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LEGO.Sync2</key>
+                <status>0xBE</status>
+                <midino>0x09</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LEGO.Loop</key>
+                <status>0xBE</status>
+                <midino>0x0A</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 10 messages.</description>
+                <status>0xBE</status>
+                <midino>0x0B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 6 messages.</description>
+                <status>0xBE</status>
+                <midino>0x0C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LEGO.Loop</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xBE</status>
+                <midino>0x0D</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LEGO.Sync1</key>
+                <status>0xBE</status>
+                <midino>0x0E</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LEGO.Shift</key>
+                <status>0xBE</status>
+                <midino>0x0F</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Playlist]</group>
+                <key>LoadSelectedIntoFirstStopped</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xBE</status>
+                <midino>0x13</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0xBE</status>
+                <midino>0x14</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>LEGO.Scroll</key>
+                <status>0xBE</status>
+                <midino>0x20</midino>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit2]</group>
+                <key>mix</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xBE</status>
+                <midino>0x2A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[EffectRack1_EffectUnit1]</group>
+                <key>mix</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0xBE</status>
+                <midino>0x2B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LEGO.Rate1</key>
+                <description>MIDI Learned from 33 messages.</description>
+                <status>0xEE</status>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>LEGO.Rate2</key>
+                <description>MIDI Learned from 16 messages.</description>
+                <status>0xEF</status>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>LEGO.inboundSysex</key>
+                <status>0xF0</status>
+                <options>
+                    <script-binding/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
